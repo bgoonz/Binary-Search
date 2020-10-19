@@ -15,12 +15,25 @@ targetNum is within the nums array.
 *******************************************************************/
 
 const recurBSearch = (nums, targetNum) => {
+  let startIndex = 0;
+  let endIndex = nums.length -1;
   // if nums has no length, return false because we've run out of items to
   // search and haven't found targetNum
+  if(nums.length === 0){
+    return false;
+  }
 
   // determine the slice point
+  let mid = Math.floor((startIndex+endIndex)/2)
 
   // create "left half" and "right half" arrays
+if(targetNum < nums[mid]){
+  let left = nums.slice(0,mid)
+
+} else if (targetNum > nums[mid]){
+  
+}
+//slice :first param begin index , end index where we cut (cut before end index)
 
   // if targetNum is less than the slice point, return this search on the left
   // half
@@ -29,6 +42,7 @@ const recurBSearch = (nums, targetNum) => {
   // right half
 
   // if it's not greater than or less than, we know it's equal so return true
+
 }
 
 
