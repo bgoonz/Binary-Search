@@ -1,5 +1,6 @@
 # Multiple Approaches to Binary Search
 
+![alt-text](https://blog.penjee.com/wp-content/uploads/2015/11/binary-search-tree-sorted-array-animation.gif)
 One of the most important parts of programming is being able to find data. This
 might seem obvious, but think about it: what would be the point of storing data,
 if you couldn't easily find it to use later?
