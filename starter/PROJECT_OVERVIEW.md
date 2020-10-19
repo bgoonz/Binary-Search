@@ -1,6 +1,7 @@
 # Multiple Approaches to Binary Search
 
-![alt-text](https://blog.penjee.com/wp-content/uploads/2015/11/binary-search-tree-sorted-array-animation.gif)
+
+
 One of the most important parts of programming is being able to find data. This
 might seem obvious, but think about it: what would be the point of storing data,
 if you couldn't easily find it to use later?
@@ -17,7 +18,7 @@ array to find our target at the end... That's so much work! This is where
 `binarySearch` comes in.
 
 ## How Binary Search Works
-
+![alt-text](https://blog.penjee.com/wp-content/uploads/2015/11/binary-search-tree-sorted-array-animation.gif)
 `binarySearch` employs some simple logic to achieve the same goal in much less
 time. As the name suggests, `binarySearch` aims to split a sorted data structure
 into two halves. Then, it compares the target value to the point where the data
