@@ -96,8 +96,6 @@ but employ the more efficient binary search methodology. How cool!
   is your favorite implementation? Do any seem more or less efficient than the
   others? Why?
 
-> NOTE: There are no Mocha Specs for today's project. simply test your results
-> in the terminal using `node results.js`
 
-[.includes()]: https://tc39.es/ecma262/#sec-array.prototype.includes
-[.indexOf()]: https://tc39.es/ecma262/#sec-array.prototype.indexof
+
+
