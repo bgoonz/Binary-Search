@@ -2,17 +2,11 @@
 
 
 
-One of the most important parts of programming is being able to find data. This
-might seem obvious, but think about it: what would be the point of storing data,
-if you couldn't easily find it to use later?
+One of the most important parts of programming is being able to find data. 
 
-Up to this point, we have done a lot of work with Arrays, and part of that work
-has been locating data present within them. To do this, you have likely used a
-`for loop` to iterate over the items until a target value is found, or employed
-some built in methods such as [.includes()] or [.indexOf()] to help you.
 
-While there is nothing "wrong" with these methods, they present a challenging
-problem: what if the array is really long, and the value we're looking for is at
+
+What if the array is really long, and the value we're looking for is at
 the *very end* of the array? We are iterating over *every single* element in the
 array to find our target at the end... That's so much work! This is where
 `binarySearch` comes in.
@@ -69,18 +63,18 @@ binarySearch([5, 10, 12, 15, 20, 30, 70], 24);  // => -1
 
 ## Important Note on Sorting
 
-Before we move on, really internalize the fact that `binarySearch` will **only
-work if the data has been sorted**. Given the dictionary example above, you can
+# `binarySearch` will **only work if the data has been sorted**.
+
+Given the dictionary example above, you can
 see how quickly things would go off the rails if the "s" section containing
 "stupendous" were placed *before* the "m" section. If this were the case, our
 `binarySearch` method would never be able to find our target word, because we
 would only ever search the section "m" through "z". Today, know that all arrays
-in your test cases have already been sorted. You'll be learning all *sorts* of
-methods for sorting arrays later in this module, so get excited!
+in your test cases have already been sorted.
 
 ## Project Details
 
-Today, you will be asked to implement `binarySearch` in five different ways.
+Implement `binarySearch` in five different ways.
 Like all things in programming, there are multiple ways of doing the same thing,
 and today's project is about implementing the code, and analyzing the
 costs/benefits of each implementation.
